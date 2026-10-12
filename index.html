@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video Publisher</title>
+  <meta name="description"
+    content="Video Publisher is a private tool that uploads videos to its owner's own YouTube channel.">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1d2025;
+      --muted: #5b6370;
+      --line: #dde1e7;
+      --link: #0b57d0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #16181c;
+        --fg: #e8eaed;
+        --muted: #9aa3af;
+        --line: #2c3037;
+        --link: #8ab4f8;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 4rem 1.25rem 3rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      line-height: 1.2;
+      margin: 0 0 1rem;
+    }
+
+    p {
+      margin: 0 0 1rem;
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    a:focus-visible {
+      outline: 3px solid var(--link);
+      outline-offset: 2px;
+    }
+
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: .95rem;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Video Publisher</h1>
+    <p>Video Publisher is a private tool that uploads videos to its owner's own YouTube channel using the YouTube Data
+      API.</p>
+    <p>It is not offered to the public. It has no sign-up, no user accounts and no other users; the only person who
+      signs in is the owner of the channel.</p>
+    <p>When the owner signs in with Google, the tool asks for permission to upload videos to that channel and to post a
+      comment on those uploaded videos. See the <a href="privacy.html">Privacy Policy</a> for exactly what is accessed
+      and how it is handled.</p>
+    <footer>
+      Contact: <a href="mailto:anormi001@gmai.com">anormi001@gmai.com</a><br>
+      <a href="privacy.html">Privacy Policy</a>
+    </footer>
+  </main>
+</body>
+
+</html>
